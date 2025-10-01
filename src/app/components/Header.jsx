@@ -83,12 +83,12 @@ const Header = () => {
         <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-8 lg:gap-12">
           {/* Left Content */}
           <div className="w-full lg:w-1/2 text-center lg:text-left">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl font-bold leading-tight mb-6">
+            <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-6">
               Building web applications and helping businesses grow their online
               presence.
             </h1>
 
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 font-serif max-w-2xl mx-auto lg:mx-0 mb-8 leading-relaxed">
+            <p className="text-base sm:text-lg md:text-xl  text-gray-600 font-serif max-w-2xl mx-auto lg:mx-0 mb-8 leading-relaxed">
               Ravi Kumar is a full-stack web developer and freelancer who helps
               businesses grow online with custom websites and web applications. He
               has experience building responsive, high-quality websites using

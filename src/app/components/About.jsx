@@ -6,10 +6,10 @@ const About = () => {
       <div className="grid lg:grid-cols-2 gap-8 mb-8">
         {/* Left Card */}
         <div className="bg-gray-100 rounded-lg p-8 hover:shadow-md transition-shadow duration-300 ">
-          <h3 className=" text-2xl md:text-5xl font-semibold text-gray-900 mb-3">
+          <h3 className=" text-2xl md:text-3xl font-semibold text-gray-900 mb-3">
             Freelance Web Developer
           </h3>
-          <p className="text-gray-600 text-2xl leading-relaxed">
+          <p className="text-gray-600 text-lg leading-relaxed">
             Experienced in MERN Stack, Next.js and Wordpress, building modern,
             responsive, and user-friendly websites tailored to client needs.
           </p>
@@ -17,10 +17,10 @@ const About = () => {
 
         {/* Right Card */}
         <div className="bg-gray-100 rounded-lg p-8 hover:shadow-md transition-shadow duration-300">
-          <h3 className=" text-2xl md:text-5xl font-semibold text-gray-900 mb-3">
+          <h3 className=" text-2xl md:text-3xl font-semibold text-gray-900 mb-3">
           Tech Consultant for Businesses
           </h3>
-          <p className="text-gray-600 text-2xl leading-relaxed">
+          <p className="text-gray-600 text-lg leading-relaxed">
           Helps businesses grow online with practical tech solutions, digital strategies, and cloud adoption guidance.
           </p>
         </div>
@@ -31,22 +31,22 @@ const About = () => {
         {/* Left Card */}
         <div className="bg-gray-100 rounded-lg p-8 hover:shadow-md transition-shadow duration-300">
           <div className="flex items-start justify-between mb-3">
-            <h3 className=" text-2xl md:text-5xl font-semibold text-gray-900">
+            <h3 className=" text-2xl md:text-3xl font-semibold text-gray-900">
               Martial Artist & Former Coach
             </h3>
             {/* <ArrowUpRight className="w-5 h-5 text-gray-400 flex-shrink-0 ml-2" /> */}
           </div>
-          <p className="text-gray-600 text-2xl  leading-relaxed">
+          <p className="text-gray-600 text-lg  leading-relaxed">
             Brings the discipline, resilience, and focus of martial arts into professional and personal life, inspiring others through coaching and mentorship.
           </p>
         </div>
 
         {/* Right Card */}
         <div className="bg-gray-100 rounded-lg p-8 hover:shadow-md transition-shadow duration-300">
-          <h3 className=" text-2xl md:text-5xl font-semibold text-gray-900 mb-3 ">
+          <h3 className=" text-2xl md:text-3xl font-semibold text-gray-900 mb-3 ">
            Constant Learner & Hard Worker
           </h3>
-          <p className="text-gray-600 text-2xl  leading-relaxed">
+          <p className="text-gray-600 text-lg  leading-relaxed">
            Always upgrading skills, staying ahead in tech trends, and combining persistence with dedication to deliver the best results.
           </p>
         </div>

@@ -1,9 +1,13 @@
+
+
 import Image from "next/image";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { assets } from "../../../assets/assets";
 
 const Navbar = () => {
   const sideMenuRef = useRef();
+
+
 
   const openMenu = () => {
     sideMenuRef.current.style.transform = "translateX(-16rem)";
@@ -24,7 +28,7 @@ const Navbar = () => {
         </a>
 
         <div className="flex items-center gap-2">
-          <button className="">
+          <button onClick={()=>document.documentElement.classList.toggle("dark")}  className="">
             <Image className=" w-6" alt="" src={assets.moon_icon} />
           </button>
           <button className="  block md:hidden ml-3">
@@ -53,7 +57,7 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#work" className="font-serif">
+              <a href="#mywork" className="font-serif">
                 My Work
               </a>
             </li>
