@@ -28,9 +28,9 @@ const Navbar = () => {
         </a>
 
         <div className="flex items-center gap-2">
-          <button onClick={()=>document.documentElement.classList.toggle("dark")}  className="">
+          {/* <button onClick={()=>document.documentElement.classList.toggle("dark")}  className="">
             <Image className=" w-6" alt="" src={assets.moon_icon} />
-          </button>
+          </button> */}
           <button className="  block md:hidden ml-3">
             <Image
               className="w-6"
@@ -52,8 +52,8 @@ const Navbar = () => {
               </a>
             </li>
             <li>
-              <a href="#services" className="font-serif">
-                Services
+              <a href="#skills" className="font-serif">
+                Skills
               </a>
             </li>
             <li>
@@ -73,7 +73,7 @@ const Navbar = () => {
          */}
         <ul
           ref={sideMenuRef}
-          className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-yellow-950 transition duration-500"
+          className="flex md:hidden flex-col gap-4 py-20 px-10 fixed -right-64 top-0 bottom-0 w-64 z-50 h-screen bg-[#7A5B51] transition duration-500"
         >
           <div className="absolute right-6 top-8 " onClick={closeMenu}>
             <Image
@@ -93,8 +93,8 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#services" onClick={closeMenu} className="font-serif">
-              Services
+            <a href="#skills" onClick={closeMenu} className="font-serif">
+              Skills
             </a>
           </li>
           <li>

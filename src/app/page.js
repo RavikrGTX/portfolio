@@ -1,8 +1,11 @@
 'use client'
 import About from "./components/About";
+import Contact from "./components/Contact";
 import Header from "./components/Header";
 import Mywork from "./components/Mywork";
 import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
+import Testimonials from "./components/Testimonials";
 export default function Home() {
   return (
     <>
@@ -11,6 +14,9 @@ export default function Home() {
     <Header/>
     <About/>
     <Mywork/>
+    {/* <Testimonials/> */}
+    <Skills/>
+    <Contact/>
     
     </>
   );
