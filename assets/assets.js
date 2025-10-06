@@ -42,6 +42,7 @@ import ksslogo from './ksslogo.jpg'
 import bfclogo from './bfclogo.jpg'
 import kodurslogo from './kodurslogo.png'
 import rxculturelogo from './rxcultureicon.jpg'
+import logorknew from './logorknew.png'
 
 export const assets = {
     user_image,
@@ -89,7 +90,10 @@ export const assets = {
     bfclogo,
     kodurslogo,
     ksslogo,
-    rxculturelogo
+    rxculturelogo,
+
+    // new logo
+    logorknew
 };
 
 export const workData = [

@@ -8,11 +8,12 @@ export default function Skills() {
     "Node.js",
     "Express",
     "MongoDB",
-    "PostgreSQL",
-    "REST APIs",
-    "GraphQL",
+   
+ 
+    "Java",
+    "Python",
+    "c",
     "Git",
-    "Docker",
     "Figma",
     "AWS",
     "HTML5",

@@ -52,9 +52,12 @@ const About = () => {
         <p className="text-2xl  text-gray-600 mb-6">
           Ready to bring your ideas to life? Let's work together.
         </p>
+        <a href="#contact">
+
         <button className="bg-gray-900 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-800 transition-colors inline-flex items-center gap-2 group">
           Get In Touch
         </button>
+        </a>
       </div>
     </div>
   );

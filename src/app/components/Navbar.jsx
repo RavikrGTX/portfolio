@@ -21,7 +21,7 @@ const Navbar = () => {
       <nav className="w-full fixed flex justify-between px-5 lg:px-8 z-50">
         <a href="#top">
           <Image
-            src={assets.logork}
+            src={assets.logorknew}
             alt="rk"
             className="w-24 cursor-pointer mr-14"
           />
