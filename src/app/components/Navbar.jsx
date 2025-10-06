@@ -18,12 +18,12 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="w-full fixed flex justify-between px-5 lg:px-8 z-50">
+      <nav className="w-full fixed flex justify-between px-6 lg:px-8 z-50">
         <a href="#top">
           <Image
             src={assets.logorknew}
             alt="rk"
-            className="w-24 cursor-pointer mr-14"
+            className="w-21 cursor-pointer mr-14"
           />
         </a>
 
