@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="w-full fixed flex justify-between px-6 lg:px-8 z-50">
+      <nav className="w-full fixed flex justify-between px-4 lg:px-8 z-50">
         <a href="#top">
           <Image
             src={assets.logorknew}
