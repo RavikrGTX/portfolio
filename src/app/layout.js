@@ -19,6 +19,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html  lang="en" className="scroll-smooth">
+
+      <head>
+        <meta name="google-site-verification" content="qZmi7oKuQSnE1qAwk4OcovlWs0gYHgjUaWKj4Rgisu0" />
+      </head>
       <body
         className={`${outfit.className} ${ovo.className} antialiased `}
       >
