@@ -1,5 +1,6 @@
 import  {Outfit , Ovo } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const outfit  = Outfit ({
  
@@ -20,9 +21,9 @@ export default function RootLayout({ children }) {
   return (
     <html  lang="en" className="scroll-smooth">
 
-      <head>
+      <Head>
         <meta name="google-site-verification" content="qZmi7oKuQSnE1qAwk4OcovlWs0gYHgjUaWKj4Rgisu0" />
-      </head>
+      </Head>
       <body
         className={`${outfit.className} ${ovo.className} antialiased `}
       >
