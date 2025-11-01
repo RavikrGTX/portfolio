@@ -38,7 +38,7 @@ export async function POST(request) {
     await transporter.sendMail({
       from: process.env.SMTP_USER,
       to: process.env.RECIPIENT_EMAIL,
-      subject: `Portfolio Contact: ${subject}`,
+      subject: `Ravi's Portfolio Contact: ${subject}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px;">
           <h2 style="color: #000000; border-bottom: 2px solid #000000; padding-bottom: 10px;">
