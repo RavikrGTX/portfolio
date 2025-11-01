@@ -12,13 +12,13 @@ export default function WorkSection() {
       website: 'https://brutalfightclub.com',
       domain: 'brutalfightclub.com'
     },
-    {
-      id: 2,
-      businessName: 'Brilliant Martial Arts Academy',
-      logo: assets.bmaalogo,
-      website: 'https://brilliantmartialarts.com',
-      domain: 'brilliantmartialarts.com'
-    },
+    // {
+    //   id: 2,
+    //   businessName: 'Brilliant Martial Arts Academy',
+    //   logo: assets.bmaalogo,
+    //   website: 'https://brilliantmartialarts.com',
+    //   domain: 'brilliantmartialarts.com'
+    // },
     {
       id: 3,
       businessName: 'Konaseema Sustainable Solutions',
