@@ -5,8 +5,15 @@ import Image from 'next/image';
 export default function WorkSection() {
  
   const projects = [
-    {
+       {
       id: 1,
+      businessName: 'Hi-Tech Constructions',
+      logo:assets.bfclogo, 
+      website: 'https://hitechconstructions.com/',
+      domain: 'hitechconstructions.com'
+    },
+    {
+      id: 2,
       businessName: 'Brutal Fight Club',
       logo:assets.bfclogo, 
       website: 'https://brutalfightclub.com',
@@ -20,7 +27,7 @@ export default function WorkSection() {
     //   domain: 'brilliantmartialarts.com'
     // },
     {
-      id: 3,
+      id: 4,
       businessName: 'Konaseema Sustainable Solutions',
       logo: assets.ksslogo,
       website: 'https://konaseemasolutions.com',
@@ -34,11 +41,18 @@ export default function WorkSection() {
       domain: 'kodursparadise.com'
     },
     {
-      id: 5,
+      id: 6,
       businessName: 'RxCulture',
       logo: assets.rxculturelogo,
       website: 'https://therxculture.com',
       domain: 'therxculture.com'
+    },
+    {
+      id: 7,
+      businessName: 'Farm Atharv',
+      logo: assets.rxculturelogo,
+      website: 'https://farmatharv.com',
+      domain: 'farmatharv.com'
     },
 
   ];

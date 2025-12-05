@@ -1,4 +1,3 @@
-
 import React from "react";
 import Image from "next/image";
 import { assets } from "../../../assets/assets";
@@ -15,14 +14,18 @@ const Header = () => {
             </h1>
 
             <p className="text-base sm:text-lg md:text-xl  text-gray-600 font-serif max-w-2xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-              Ravi Kumar is a full-stack web developer and freelancer who helps
-              businesses grow online with custom websites and web applications. He
-              has experience building responsive, high-quality websites using
-              WordPress and the MERN stack. As a freelancer, Ravi works with
-              startups, fitness brands, and local businesses to improve their
-              digital presence. He enjoys turning ideas into real-world solutions
-              and also shares tips and tutorials to help others learn web
-              development and freelancing.
+              Ravi Kumar is a full-stack web developer specializing in the MERN
+              stack and Next.js. He builds fast, scalable, and user-friendly web
+              applications, handling both backend architecture and responsive
+              frontend development. His work reflects clean code, performance
+              optimization, and practical product-building experience. He has
+              worked with startups, fitness brands, and local businesses to
+              strengthen their digital presence and build reliable web
+              solutions. His core skills include React, Node.js, Express,
+              MongoDB, and Next.js, along with experience in custom WordPress
+              development when needed. Ravi is a proactive learner and
+              problem-solver who enjoys building impactful products and
+              contributing to engineering teams with ownership and initiative.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
@@ -34,12 +37,12 @@ const Header = () => {
                 <Image
                   className="w-4 h-4"
                   alt="arrow icon"
-                  src={assets.right_arrow_bold_dark}
+                  src={assets.right_arrow}
                 />
               </a>
 
               <a
-                href="/ravikumarmresume1.pdf"
+                href="/RAVIKUMAR_MAMIDI_RESUME.pdf"
                 download
                 className="w-full sm:w-auto px-6 py-3 border border-gray-500 rounded-full flex items-center justify-center gap-2 hover:bg-gray-100 transition-all duration-300 text-sm sm:text-base"
               >
@@ -74,17 +77,6 @@ const Header = () => {
 };
 
 export default Header;
-
-
-
-
-
-
-
-
-
-
-
 
 // import Image from "next/image";
 // import { assets } from "@/data/assets"; // Update this import path based on your project structure
