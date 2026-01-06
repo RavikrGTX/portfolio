@@ -7,6 +7,7 @@ import Mywork from "./components/Mywork";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills";
 import Testimonials from "./components/Testimonials";
+import Projects from "./components/Projects";
 export default function Home() {
   return (
     <>
@@ -16,7 +17,9 @@ export default function Home() {
     <About/>
     <Mywork/>
     {/* <Testimonials/> */}
+
     <Skills/>
+    <Projects/>
     <Contact/>
     <Footer/>
     
