@@ -7,13 +7,20 @@ export default function WorkSection() {
   const projects = [
        {
       id: 1,
+      businessName: 'Mouf Farm',
+      logo:assets.bfclogo, 
+      website: 'https://mouffarm.com/',
+      domain: 'mouffarm.com'
+    },
+       {
+      id: 2,
       businessName: 'Hi-Tech Constructions',
       logo:assets.bfclogo, 
       website: 'https://hitechconstructions.com/',
       domain: 'hitechconstructions.com'
     },
     {
-      id: 2,
+      id: 3,
       businessName: 'Brutal Fight Club',
       logo:assets.bfclogo, 
       website: 'https://brutalfightclub.com',
@@ -34,7 +41,7 @@ export default function WorkSection() {
       domain: 'konaseemasolutions.com'
     },
     {
-      id: 4,
+      id: 5,
       businessName: 'KodursParadise',
       logo: assets.kodurslogo,
       website: 'https://kodursparadise.com',
