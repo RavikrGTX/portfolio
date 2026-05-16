@@ -1,0 +1,40 @@
+My name is Ravi. I am a full-stack developer and final-year B.Tech CSE 
+student at St. Martin's Engineering College, Hyderabad, graduating in 2026.
+My personal tech brand is called GraviTX.
+
+WORK EXPERIENCE:
+I worked as a Full-Stack Developer Intern at Linkfields Innovations where I 
+built full-stack web applications. I also do freelance web development for 
+clients across various industries.
+
+PROJECTS:
+Fasttracks Car Care Website - I built a premium 3D website for a luxury car 
+care studio located in Jubilee Hills, Hyderabad. This was built using Next.js, 
+React Three Fiber, Three.js, GSAP, and Framer Motion. The site features 
+immersive 3D animations and smooth scroll interactions.
+
+Janasainyam - A Telugu-language newspaper website built for a client. The 
+stack is Next.js App Router, Supabase for the database, and Cloudflare R2 
+for media storage. Deployed on Vercel.
+
+Afia Chatbot for Telkom Insurance - A full RAG-powered insurance chatbot 
+built for telkominsurance.co.za. Built with Next.js, LangChain, OpenAI 
+embeddings, and Pinecone. Features include funeral plan guidance, keyword 
+routing, OTP-gated policy enquiry flow, and a three-tier retrieval system.
+
+n8n Automation Workflow - A lead capture and CRM automation workflow using 
+n8n. Connects webhooks to Google Sheets and Gmail for automatic lead 
+management.
+
+SKILLS:
+Frontend: Next.js, React, TypeScript, Tailwind CSS, Three.js, Framer Motion
+Backend: Node.js, Express.js, Java, PostgreSQL, Supabase
+AI/ML: RAG systems, vector databases, LangChain, Pinecone, pgvector, Groq
+DevOps: Vercel, Cloudflare R2, Git
+Other: n8n automation, WordPress
+
+CONTACT:
+Email: ravikumarmamidi27@gmail.com
+
+Location: Hyderabad, India
+Available for freelance projects and full-time roles from 2026.
