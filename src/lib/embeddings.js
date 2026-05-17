@@ -1,26 +1,37 @@
-// Why: Xenova runs the embedding model directly in Node.js, no API key needed.
-// The pipeline is loaded once and cached — loading it takes ~2s the first time.
-
-import { pipeline } from '@xenova/transformers';
-
-let embedder = null;
-
-async function getEmbedder() {
-  if (!embedder) {
-    // 'feature-extraction' means: turn text into a vector.
-    // all-MiniLM-L6-v2 produces 384-dim vectors — small, fast, high quality.
-    embedder = await pipeline('feature-extraction', 'Xenova/all-MiniLM-L6-v2');
-  }
-  return embedder;
-}
-
 export async function embed(text) {
-  const fn = await getEmbedder();
+  const token = process.env.HUGGINGFACE_API_KEY?.trim();
 
-  // 'mean_pooling' + 'normalize' → one 384-number vector per input string.
-  // Normalizing means the vector has length 1, so cosine similarity = dot product (faster).
-  const output = await fn(text, { pooling: 'mean', normalize: true });
+  if (!token) {
+    throw new Error('Missing HUGGINGFACE_API_KEY');
+  }
 
-  // output.data is a Float32Array — convert to plain JS array for JSON serialisation.
-  return Array.from(output.data);
+  const model = 'sentence-transformers/all-MiniLM-L6-v2';
+  const response = await fetch(
+    `https://router.huggingface.co/hf-inference/models/${model}/pipeline/feature-extraction`,
+    {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${token}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        inputs: text,
+        options: { wait_for_model: true },
+      }),
+    }
+  );
+
+  if (!response.ok) {
+    const errorText = await response.text();
+    throw new Error(`Hugging Face API error ${response.status}: ${errorText}`);
+  }
+
+  const data = await response.json();
+  const vector = Array.isArray(data[0]) ? data[0] : data;
+
+  if (!Array.isArray(vector) || vector.some(value => typeof value !== 'number')) {
+    throw new Error(`Unexpected Hugging Face response shape: ${JSON.stringify(data).slice(0, 300)}`);
+  }
+
+  return vector;
 }
