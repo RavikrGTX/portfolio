@@ -1,3 +1,5 @@
+'use client';
+
 import { useState } from 'react';
 import { Mail, MapPin, Send } from 'lucide-react';
 
@@ -97,7 +99,7 @@ export default function Contact() {
 
           <div className="lg:col-span-2">
             <div className="bg-gray-50 rounded-lg p-8 border border-gray-200">
-              <div className="space-y-6">
+              <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid sm:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-medium text-black mb-2">
@@ -109,6 +111,7 @@ export default function Contact() {
                       value={formData.name}
                       onChange={handleChange}
                       required
+                      disabled={loading}
                       className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent transition"
                       placeholder="your name"
                     />
@@ -124,6 +127,7 @@ export default function Contact() {
                       value={formData.email}
                       onChange={handleChange}
                       required
+                      disabled={loading}
                       className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent transition"
                       placeholder="your gmail"
                     />
@@ -140,6 +144,7 @@ export default function Contact() {
                     value={formData.subject}
                     onChange={handleChange}
                     required
+                    disabled={loading}
                     className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent transition"
                     placeholder="Project Discussion"
                   />
@@ -154,6 +159,7 @@ export default function Contact() {
                     value={formData.message}
                     onChange={handleChange}
                     required
+                    disabled={loading}
                     rows={6}
                     className="w-full px-4 py-3 bg-white border border-gray-300 rounded-lg text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent transition resize-none"
                     placeholder="Tell me about your project..."
@@ -171,7 +177,7 @@ export default function Contact() {
                 )}
 
                 <button
-                  onClick={handleSubmit}
+                  type="submit"
                   disabled={loading}
                   className="w-full px-8 py-4 bg-black text-white font-medium rounded-lg hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
                 >
@@ -187,7 +193,7 @@ export default function Contact() {
                     </>
                   )}
                 </button>
-              </div>
+              </form>
             </div>
           </div>
         </div>
