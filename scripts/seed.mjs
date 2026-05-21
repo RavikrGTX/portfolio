@@ -57,7 +57,7 @@ async function embed(text) {
   return vector;
 }
 
-function chunkText(text, chunkSize = 300, overlap = 50) {
+function chunkText(text, chunkSize = 150, overlap = 30) {
   const words = text.split(/\s+/);
   const chunks = [];
 

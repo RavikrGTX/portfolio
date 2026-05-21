@@ -3,7 +3,7 @@
 import { useState, useRef, useEffect, useCallback } from 'react'
 
 const WELCOME =
-  "Hey there! I'm an AI assistant trained on this portfolio. Ask me about projects, skills, or experience - I'll dig through the knowledge base and get you a real answer."
+  "👋 Hey there! I'm Ravi's AI assistant. I'm trained on his portfolio and can tell you all about his projects, skills, experience, and education. Try asking me something like:\n\n• \"What projects has Ravi built?\"\n• \"What are his skills?\"\n• \"Tell me about the Afia chatbot\"\n• \"How can I contact Ravi?\"\n\nI'm RAG-powered, so my answers come straight from the knowledge base!"
 const REQUEST_TIMEOUT_MS = 20000
 
 export default function ChatBot() {

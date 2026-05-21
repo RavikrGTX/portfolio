@@ -1,40 +1,37 @@
-My name is Ravi. I am a full-stack developer and final-year B.Tech CSE 
-student at St. Martin's Engineering College, Hyderabad, graduating in 2026.
-My personal tech brand is called GraviTX.
+My name is Ravi Kumar Mamidi. I am a full-stack developer and final-year B.Tech Computer Science Engineering student at St. Martin's Engineering College, Hyderabad, graduating in 2026. My personal tech brand is called GraviTX.
+
+EDUCATION:
+B.Tech in Computer Science Engineering — St. Martin's Engineering College, Hyderabad (Graduating 2026). I have strong academic performance and have balanced coursework with real-world freelance projects and internships throughout my degree.
 
 WORK EXPERIENCE:
-I worked as a Full-Stack Developer Intern at Linkfields Innovations where I 
-built full-stack web applications. I also do freelance web development for 
-clients across various industries.
+I worked as a Full-Stack Developer Intern at Linkfields Innovations, where I built full-stack web applications using modern JavaScript frameworks and backend technologies. I contributed to production-level codebases, worked with cross-functional teams, and delivered features on tight deadlines.
+
+I also do freelance web development for clients across various industries including automotive, media/publishing, insurance, and fitness. As a freelancer, I handle everything from initial client consultation and requirement gathering to architecture design, development, deployment, and post-launch maintenance. My freelance clients include businesses in Jubilee Hills, Hyderabad, and other locations.
 
 PROJECTS:
-Fasttracks Car Care Website - I built a premium 3D website for a luxury car 
-care studio located in Jubilee Hills, Hyderabad. This was built using Next.js, 
-React Three Fiber, Three.js, GSAP, and Framer Motion. The site features 
-immersive 3D animations and smooth scroll interactions.
 
-Janasainyam - A Telugu-language newspaper website built for a client. The 
-stack is Next.js App Router, Supabase for the database, and Cloudflare R2 
-for media storage. Deployed on Vercel.
+Fasttracks Car Care Website — A premium 3D website for a luxury car care studio located in Jubilee Hills, Hyderabad. Built using Next.js, React Three Fiber, Three.js, GSAP, and Framer Motion. The site features immersive 3D animations, smooth scroll-triggered interactions, a showcase of luxury car detailing services, and a modern brand-aligned visual identity. This project demonstrates expertise in combining 3D graphics with web performance.
 
-Afia Chatbot for Telkom Insurance - A full RAG-powered insurance chatbot 
-built for telkominsurance.co.za. Built with Next.js, LangChain, OpenAI 
-embeddings, and Pinecone. Features include funeral plan guidance, keyword 
-routing, OTP-gated policy enquiry flow, and a three-tier retrieval system.
+Janasainyam — A Telugu-language news and newspaper website built for a client. The tech stack is Next.js App Router for the frontend and API routes, Supabase for the database and authentication, and Cloudflare R2 for media storage. The site is deployed on Vercel. This project involved building a full CMS-like experience for publishing news articles in Telugu script with proper typography and responsive design.
 
-n8n Automation Workflow - A lead capture and CRM automation workflow using 
-n8n. Connects webhooks to Google Sheets and Gmail for automatic lead 
-management.
+Afia Chatbot for Telkom Insurance — A full RAG-powered insurance chatbot built for telkominsurance.co.za, a South African insurance company. Built with Next.js, LangChain, OpenAI embeddings, and Pinecone vector database. Features include funeral plan guidance and recommendations, smart keyword routing for different insurance topics, an OTP-gated policy enquiry flow where users can look up their policy details after phone number verification, and a three-tier retrieval system that balances speed and accuracy. This is one of the most advanced RAG systems I have built.
+
+n8n Automation Workflow — A lead capture and CRM automation workflow built using n8n. This workflow connects incoming webhooks from websites or forms to Google Sheets for data storage and Gmail for automatic notifications, creating a complete lead management pipeline. It automates follow-up email sequences and lead scoring.
+
+Portfolio Website (This Site) — My personal portfolio built with Next.js 15, Tailwind CSS, and a RAG-powered AI chatbot. The chatbot uses Hugging Face embeddings stored in Supabase with pgvector for semantic search, and Groq's Llama 3.3 70B model for generation. It also has a contact form powered by Nodemailer. This project serves as both a portfolio and a technical demo of modern RAG architectures.
 
 SKILLS:
-Frontend: Next.js, React, TypeScript, Tailwind CSS, Three.js, Framer Motion
-Backend: Node.js, Express.js, Java, PostgreSQL, Supabase
-AI/ML: RAG systems, vector databases, LangChain, Pinecone, pgvector, Groq
-DevOps: Vercel, Cloudflare R2, Git
-Other: n8n automation, WordPress
+Frontend: Next.js, React, TypeScript, JavaScript, Tailwind CSS, Three.js, React Three Fiber, Framer Motion, GSAP, HTML5, CSS3, responsive design
+Backend: Node.js, Express.js, Java, Python, REST APIs, PostgreSQL, Supabase, MongoDB, MySQL
+AI/ML: RAG systems, vector databases (Pinecone, pgvector), LangChain, LangGraph, Groq, Hugging Face, OpenAI API, semantic search, embeddings
+DevOps & Tools: Vercel, Cloudflare R2, Git, GitHub, n8n, Linux, Docker basics
+Other: WordPress, SEO basics, web performance optimization, responsive design, cross-browser compatibility
+
+ACHIEVEMENTS & INTERESTS:
+I am a proactive learner who stays up to date with the latest in AI engineering and full-stack development. I enjoy building products that solve real problems and contribute to engineering teams with ownership and initiative. I am passionate about the intersection of AI and web development, particularly in building intelligent user-facing features like chatbots, recommendation systems, and semantic search.
 
 CONTACT:
 Email: ravikumarmamidi27@gmail.com
-
 Location: Hyderabad, India
-Available for freelance projects and full-time roles from 2026.
+Available for: freelance projects, internships, and full-time software engineering roles starting 2026.
+Preferred roles: Full-stack developer, AI/ML engineer, frontend engineer, software development engineer.

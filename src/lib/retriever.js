@@ -11,11 +11,11 @@ export async function retrieveContext(question) {
 
   // Step 2: Call the SQL function we created in Supabase.
   // It computes cosine similarity between queryVector and every stored vector,
-  // returns the top 3 docs that score above 0.5.
+  // returns the top 5 docs that score above 0.45.
   const { data, error } = await supabase.rpc('match_documents', {
     query_embedding: queryVector,
-    match_threshold: 0.5,
-    match_count: 3,
+    match_threshold: 0.45,
+    match_count: 5,
   });
 
   if (error) {
