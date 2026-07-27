@@ -65,22 +65,27 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#about" className="text-white hover:text-black dark:hover:text-zinc-300 transition-colors duration-200 text-base sm:text-lg block">
+                <a href="/blog" className="text-white hover:text-black dark:hover:text-zinc-300 transition-colors duration-200 text-base sm:text-lg block">
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="/#about" className="text-white hover:text-black dark:hover:text-zinc-300 transition-colors duration-200 text-base sm:text-lg block">
                   About
                 </a>
               </li>
               <li>
-                <a href="#skills" className="text-white hover:text-black dark:hover:text-zinc-300 transition-colors duration-200 text-base sm:text-lg block">
+                <a href="/#skills" className="text-white hover:text-black dark:hover:text-zinc-300 transition-colors duration-200 text-base sm:text-lg block">
                   Skills
                 </a>
               </li>
               <li>
-                <a href="#mywork" className="text-white hover:text-black dark:hover:text-zinc-300 transition-colors duration-200 text-base sm:text-lg block">
+                <a href="/#mywork" className="text-white hover:text-black dark:hover:text-zinc-300 transition-colors duration-200 text-base sm:text-lg block">
                   My Work
                 </a>
               </li>
                <li>
-                <a href="#contact" className="text-white hover:text-black dark:hover:text-zinc-300 transition-colors duration-200 text-base sm:text-lg block">
+                <a href="/#contact" className="text-white hover:text-black dark:hover:text-zinc-300 transition-colors duration-200 text-base sm:text-lg block">
                  Contact
                 </a>
               </li>
