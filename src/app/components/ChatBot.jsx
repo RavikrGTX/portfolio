@@ -93,7 +93,7 @@ export default function ChatBot() {
             : 'translate-y-6 opacity-0 pointer-events-none',
         ].join(' ')}
       >
-        <div className="bg-[#111827] px-4 py-3 flex items-center gap-3 flex-shrink-0">
+        <div className="bg-[#111827] dark:bg-zinc-800 px-4 py-3 flex items-center gap-3 flex-shrink-0">
           <BotAvatar />
           <div className="flex-1 min-w-0">
             <p className="text-[#f9fafb] text-[13px] font-medium leading-tight">Ravi's AI Assistant Chatbot</p>
@@ -172,32 +172,32 @@ export default function ChatBot() {
         onClick={() => setOpen(o => !o)}
         aria-label={open ? 'Close chat' : 'Open chat'}
         aria-expanded={open}
-        className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#111827] hover:bg-[#1f2937] flex items-center justify-center transition-all duration-200 hover:scale-105 active:scale-95"
+        className="fixed bottom-6 right-6 z-50 w-14 h-14 rounded-full bg-[#111827] dark:bg-zinc-100 hover:bg-[#1f2937] dark:hover:bg-zinc-200 flex items-center justify-center transition-all duration-200 hover:scale-105 active:scale-95 text-[#c7d2fe] dark:text-zinc-800"
       >
         <svg
           width="26"
           height="26"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="#c7d2fe"
+          stroke="currentColor"
           strokeWidth="1.6"
           strokeLinecap="round"
           strokeLinejoin="round"
           className={`absolute transition-all duration-200 ${open ? 'opacity-0 scale-75' : 'opacity-100 scale-100'}`}
         >
           <rect x="2" y="8" width="20" height="14" rx="3" />
-          <circle cx="8.5" cy="14.5" r="1.5" fill="#c7d2fe" stroke="none" />
-          <circle cx="15.5" cy="14.5" r="1.5" fill="#c7d2fe" stroke="none" />
+          <circle cx="8.5" cy="14.5" r="1.5" fill="currentColor" stroke="none" />
+          <circle cx="15.5" cy="14.5" r="1.5" fill="currentColor" stroke="none" />
           <path d="M9 19h6" />
           <path d="M12 8V4" />
-          <circle cx="12" cy="3" r="1" fill="#818cf8" stroke="none" />
+          <circle cx="12" cy="3" r="1" fill="currentColor" stroke="none" />
         </svg>
         <svg
           width="20"
           height="20"
           viewBox="0 0 24 24"
           fill="none"
-          stroke="#c7d2fe"
+          stroke="currentColor"
           strokeWidth="2.2"
           strokeLinecap="round"
           strokeLinejoin="round"

@@ -20,11 +20,12 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="max-w-6xl mx-auto px-6 py-24">
+    <section id="projects" className="py-24">
+      <div className="mx-auto w-full max-w-6xl px-6 sm:px-8 lg:px-12">
       
       {/* Section Heading */}
       <div className="mb-16 text-center">
-        <h1 className="text-5xl font-bold text-black mb-4 tracking-tight">
+        <h1 className="text-5xl font-bold text-black dark:text-zinc-100 mb-4 tracking-tight">
           Projects
         </h1>
         
@@ -35,36 +36,36 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
             <Link
+  key={project.id}
   href={project.url}
   target="_blank"
   rel="noopener noreferrer"
   className="block"
 >
           <div
-            key={project.id}
-            className="group relative border border-gray-200 rounded-2xl p-8 
-                       hover:border-black hover:shadow-xl
+            className="group relative border border-gray-200 dark:border-zinc-700 rounded-2xl p-8 
+                       hover:border-black dark:hover:border-zinc-300 hover:shadow-xl
                        transition-all duration-500 ease-out
                        hover:-translate-y-2 cursor-pointer
-                       bg-white overflow-hidden"
+                       bg-white dark:bg-zinc-900 overflow-hidden"
           >
            
-            <div className="absolute inset-0 bg-gradient-to-br from-gray-50 to-transparent 
+            <div className="absolute inset-0 bg-gradient-to-br from-gray-50 dark:from-zinc-800 to-transparent 
                           opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             
             <div className="relative z-10">
         
-              <div className="text-gray-300 font-bold text-6xl mb-4 
-                            group-hover:text-gray-400 transition-colors duration-300">
+              <div className="text-gray-300 dark:text-zinc-700 font-bold text-6xl mb-4 
+                            group-hover:text-gray-400 dark:group-hover:text-zinc-500 transition-colors duration-300">
                 {String(index + 1).padStart(2, '0')}
               </div>
 
-              <h2 className="text-2xl font-bold text-black mb-3 
+              <h2 className="text-2xl font-bold text-black dark:text-zinc-100 mb-3 
                            group-hover:translate-x-1 transition-transform duration-300">
                 {project.title}
               </h2>
 
-              <p className="text-gray-600 text-base leading-relaxed mb-6">
+              <p className="text-gray-600 dark:text-zinc-400 text-base leading-relaxed mb-6">
                 {project.description}
               </p>
 
@@ -73,9 +74,9 @@ const Projects = () => {
                 {project.tech.map((tech, i) => (
                   <span 
                     key={i}
-                    className="px-3 py-1 text-xs font-medium text-gray-700 
-                             bg-gray-100 rounded-full
-                             group-hover:bg-black group-hover:text-white
+                    className="px-3 py-1 text-xs font-medium text-gray-700 dark:text-zinc-300
+                             bg-gray-100 dark:bg-zinc-800 rounded-full
+                             group-hover:bg-black dark:group-hover:bg-zinc-100 group-hover:text-white dark:group-hover:text-zinc-900
                              transition-all duration-300"
                   >
                     {tech}
@@ -89,6 +90,7 @@ const Projects = () => {
           </div>
         </Link>
         ))}
+      </div>
       </div>
       
     </section>

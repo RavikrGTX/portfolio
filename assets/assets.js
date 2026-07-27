@@ -43,6 +43,7 @@ import bfclogo from './bfclogo.jpg'
 import kodurslogo from './kodurslogo.png'
 import rxculturelogo from './rxcultureicon.jpg'
 import logorknew from './logorknew.png'
+import logorkdarknew from './logorkdarknew.png'
 
 export const assets = {
     user_image,
@@ -93,7 +94,8 @@ export const assets = {
     rxculturelogo,
 
     // new logo
-    logorknew
+    logorknew,
+    logorkdarknew
 };
 
 export const workData = [

@@ -65,14 +65,14 @@ export default function WorkSection() {
   ];
 
   return (
-    <section id="mywork" className=" bg-gray-50 py-20 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-7xl mx-auto">
+    <section id="mywork" className="bg-gray-50 dark:bg-zinc-900/50 py-20">
+      <div className="mx-auto w-full max-w-6xl px-6 sm:px-8 lg:px-12">
         
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-black mb-4">
+          <h2 className="text-4xl sm:text-5xl font-bold text-black dark:text-zinc-100 mb-4">
             My Work
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-600 dark:text-zinc-400 max-w-2xl mx-auto">
             Websites I've built for businesses and clients
           </p>
         </div>
@@ -85,17 +85,17 @@ export default function WorkSection() {
               href={project.website}
               target="_blank"
               rel="noopener noreferrer"
-              className="group bg-white rounded-lg p-8 border border-gray-200 hover:border-black transition-all duration-300 hover:shadow-lg"
+              className="group bg-white dark:bg-zinc-900 rounded-lg p-8 border border-gray-200 dark:border-zinc-700 hover:border-black dark:hover:border-zinc-300 transition-all duration-300 hover:shadow-lg"
             >
 
 
           
-              <h3 className="text-xl font-semibold text-black mb-3 text-center">
+              <h3 className="text-xl font-semibold text-black dark:text-zinc-100 mb-3 text-center">
                 {project.businessName}
               </h3>
 
               
-              <div className="flex items-center justify-center space-x-2 text-gray-600 group-hover:text-black transition-colors">
+              <div className="flex items-center justify-center space-x-2 text-gray-600 dark:text-zinc-400 group-hover:text-black dark:group-hover:text-zinc-100 transition-colors">
                 <span className="text-sm">{project.domain}</span>
                 <ExternalLink className="w-4 h-4 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
               </div>

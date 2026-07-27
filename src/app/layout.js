@@ -1,6 +1,5 @@
 import  {Outfit , Ovo } from "next/font/google";
 import "./globals.css";
-import Head from "next/head";
 
 const outfit  = Outfit ({
  
@@ -15,15 +14,31 @@ const ovo  = Ovo({
 export const metadata = {
   title: "Ravi-Portfolio",
   description: "",
+  verification: {
+    google: "qZmi7oKuQSnE1qAwk4OcovlWs0gYHgjUaWKj4Rgisu0",
+  },
 };
+
+const themeScript = `
+(function() {
+  try {
+    var theme = localStorage.getItem('theme');
+    if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  } catch (e) {}
+})();
+`;
 
 export default function RootLayout({ children }) {
   return (
-    <html  lang="en" className="scroll-smooth">
+    <html  lang="en" className="scroll-smooth" suppressHydrationWarning>
 
-      <Head>
-        <meta name="google-site-verification" content="qZmi7oKuQSnE1qAwk4OcovlWs0gYHgjUaWKj4Rgisu0" />
-      </Head>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
       <body
         className={`${outfit.className} ${ovo.className} antialiased `}
       >

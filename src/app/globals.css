@@ -4,11 +4,17 @@
 
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 
 
 
 *{
   font-family: Outfit;
+}
+
+body {
+  @apply bg-white text-gray-900 dark:bg-zinc-950 dark:text-zinc-100 transition-colors duration-300;
 }
 
 @keyframes chatBounce {
