@@ -1,37 +1,52 @@
-My name is Ravi Kumar Mamidi. I am a full-stack developer and final-year B.Tech Computer Science Engineering student at St. Martin's Engineering College, Hyderabad, graduating in 2026. My personal tech brand is called GraviTX.
+My name is Ravi Kumar Mamidi. I am a full-stack developer and final-year B.Tech Computer Science Engineering student at St. Martin's Engineering College, Hyderabad, graduating in 2026. My personal tech brand is called GraviTX. I specialize in the MERN stack and Next.js, building fast, scalable web applications for startups, fitness brands, and local businesses.
+
+ABOUT THIS PORTFOLIO WEBSITE:
+This website (ravikr.tech / Ravi's portfolio) is built with Next.js 15, React 19, and Tailwind CSS. It includes a dark/light theme toggle, a Markdown-powered blog, a Nodemailer contact form, and a RAG-powered AI chatbot. The chatbot uses Hugging Face sentence-transformers embeddings (all-MiniLM-L6-v2), Supabase pgvector for semantic search, and Groq's Llama 3.3 70B for answer generation.
 
 EDUCATION:
-B.Tech in Computer Science Engineering — St. Martin's Engineering College, Hyderabad (Graduating 2026). I have strong academic performance and have balanced coursework with real-world freelance projects and internships throughout my degree.
+B.Tech in Computer Science Engineering — St. Martin's Engineering College, Hyderabad (Graduating 2026). Balanced coursework with freelance projects and internships throughout the degree.
 
 WORK EXPERIENCE:
-I worked as a Full-Stack Developer Intern at Linkfields Innovations, where I built full-stack web applications using modern JavaScript frameworks and backend technologies. I contributed to production-level codebases, worked with cross-functional teams, and delivered features on tight deadlines.
+Full-Stack Developer Intern at Linkfields Innovations — built full-stack web applications using modern JavaScript frameworks and backend technologies, contributed to production codebases, and delivered features with cross-functional teams.
 
-I also do freelance web development for clients across various industries including automotive, media/publishing, insurance, and fitness. As a freelancer, I handle everything from initial client consultation and requirement gathering to architecture design, development, deployment, and post-launch maintenance. My freelance clients include businesses in Jubilee Hills, Hyderabad, and other locations.
+Freelance Web Developer and Tech Consultant — delivers MERN Stack, Next.js, and WordPress websites for clients. Handles consultation, requirements, architecture, development, deployment, and maintenance. Also advises businesses on digital strategy and cloud adoption.
 
-PROJECTS:
+CLIENT WEBSITES (My Work section on this portfolio):
+- Mouf Farm — mouffarm.com
+- Hi-Tech Constructions — hitechconstructions.com
+- Brutal Fight Club — brutalfightclub.com
+- Konaseema Sustainable Solutions — konaseemasolutions.com
+- KodursParadise — kodursparadise.com
+- RxCulture — therxculture.com
+- Farm Atharv — farmatharv.com
 
-Fasttracks Car Care Website — A premium 3D website for a luxury car care studio located in Jubilee Hills, Hyderabad. Built using Next.js, React Three Fiber, Three.js, GSAP, and Framer Motion. The site features immersive 3D animations, smooth scroll-triggered interactions, a showcase of luxury car detailing services, and a modern brand-aligned visual identity. This project demonstrates expertise in combining 3D graphics with web performance.
+PERSONAL / FEATURED PROJECTS:
+Stocks Gravity — A Next.js stock market analysis app with AI-powered insights. Tech: Next.js, Inngest, MongoDB. Live: https://stocks-next-app.vercel.app/
 
-Janasainyam — A Telugu-language news and newspaper website built for a client. The tech stack is Next.js App Router for the frontend and API routes, Supabase for the database and authentication, and Cloudflare R2 for media storage. The site is deployed on Vercel. This project involved building a full CMS-like experience for publishing news articles in Telugu script with proper typography and responsive design.
+Campus Tales Mern — A MERN stack blog application. Tech: MongoDB, Express, React, Node.js. Live: https://campus-tales-mern.onrender.com/
 
-Afia Chatbot for Telkom Insurance — A full RAG-powered insurance chatbot built for telkominsurance.co.za, a South African insurance company. Built with Next.js, LangChain, OpenAI embeddings, and Pinecone vector database. Features include funeral plan guidance and recommendations, smart keyword routing for different insurance topics, an OTP-gated policy enquiry flow where users can look up their policy details after phone number verification, and a three-tier retrieval system that balances speed and accuracy. This is one of the most advanced RAG systems I have built.
+Fasttracks Car Care Website — Premium 3D website for a luxury car care studio in Jubilee Hills, Hyderabad. Tech: Next.js, React Three Fiber, Three.js, GSAP, Framer Motion. Immersive 3D animations and scroll-triggered interactions.
 
-n8n Automation Workflow — A lead capture and CRM automation workflow built using n8n. This workflow connects incoming webhooks from websites or forms to Google Sheets for data storage and Gmail for automatic notifications, creating a complete lead management pipeline. It automates follow-up email sequences and lead scoring.
+Janasainyam — Telugu-language news and newspaper website. Tech: Next.js App Router, Supabase (database and auth), Cloudflare R2 for media, deployed on Vercel. CMS-like publishing for Telugu content.
 
-Portfolio Website (This Site) — My personal portfolio built with Next.js 15, Tailwind CSS, and a RAG-powered AI chatbot. The chatbot uses Hugging Face embeddings stored in Supabase with pgvector for semantic search, and Groq's Llama 3.3 70B model for generation. It also has a contact form powered by Nodemailer. This project serves as both a portfolio and a technical demo of modern RAG architectures.
+Afia Chatbot for Telkom Insurance — RAG-powered insurance chatbot for telkominsurance.co.za. Tech: Next.js, LangChain, OpenAI embeddings, Pinecone. Features: funeral plan guidance, keyword routing, OTP-gated policy enquiry, three-tier retrieval.
+
+n8n Automation Workflow — Lead capture and CRM automation with n8n, webhooks, Google Sheets, and Gmail notifications for lead management and follow-ups.
+
+BLOG:
+The portfolio includes a nav.al-inspired blog at /blog. Posts are written as Markdown files and cover topics such as building the RAG chatbot, freelancing as a full-stack developer, and maintainable client websites.
 
 SKILLS:
-Frontend: Next.js, React, TypeScript, JavaScript, Tailwind CSS, Three.js, React Three Fiber, Framer Motion, GSAP, HTML5, CSS3, responsive design
-Backend: Node.js, Express.js, Java, Python, REST APIs, PostgreSQL, Supabase, MongoDB, MySQL
+Frontend: React, Next.js, Tailwind CSS, JavaScript, TypeScript, HTML5, CSS3, Three.js, React Three Fiber, Framer Motion, GSAP
+Backend: Node.js, Express, MongoDB, PostgreSQL, Supabase, MySQL, REST APIs, Java, Python
 AI/ML: RAG systems, vector databases (Pinecone, pgvector), LangChain, LangGraph, Groq, Hugging Face, OpenAI API, semantic search, embeddings
-DevOps & Tools: Vercel, Cloudflare R2, Git, GitHub, n8n, Linux, Docker basics
-Other: WordPress, SEO basics, web performance optimization, responsive design, cross-browser compatibility
+Tools: Git, GitHub, Figma, Vercel, Cloudflare R2, n8n, Docker basics, Linux
+Other: WordPress, SEO basics, web performance optimization
 
-ACHIEVEMENTS & INTERESTS:
-I am a proactive learner who stays up to date with the latest in AI engineering and full-stack development. I enjoy building products that solve real problems and contribute to engineering teams with ownership and initiative. I am passionate about the intersection of AI and web development, particularly in building intelligent user-facing features like chatbots, recommendation systems, and semantic search.
+ROLES AND FOCUS:
+Freelance web developer, tech consultant for businesses, martial artist and former coach (discipline and coaching mindset), constant learner. Preferred roles: full-stack developer, AI/ML engineer, frontend engineer, software development engineer.
 
 CONTACT:
 Email: ravikumarmamidi27@gmail.com
 Location: Hyderabad, India
-Available for: freelance projects, internships, and full-time software engineering roles starting 2026.
-Preferred roles: Full-stack developer, AI/ML engineer, frontend engineer, software development engineer.
+Availability: Open for freelance projects, internships, and full-time software engineering roles starting 2026.

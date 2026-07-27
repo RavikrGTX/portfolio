@@ -11,7 +11,10 @@ export default function ChatBot() {
   const [messages, setMessages] = useState([])
   const [input, setInput] = useState('')
   const [loading, setLoading] = useState(false)
-  const [welcomed, setWelcomed] = useState(false)
+  const [welcomed, setWelcomed] = useState(false)     
+
+
+  
   const bottomRef = useRef(null)
   const inputRef = useRef(null)
 

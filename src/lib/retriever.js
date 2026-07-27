@@ -14,8 +14,8 @@ export async function retrieveContext(question) {
   // returns the top 5 docs that score above 0.45.
   const { data, error } = await supabase.rpc('match_documents', {
     query_embedding: queryVector,
-    match_threshold: 0.45,
-    match_count: 5,
+    match_threshold: 0.3,
+    match_count: 6,
   });
 
   if (error) {
