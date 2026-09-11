@@ -65,7 +65,7 @@ ${context}`
     // --- GENERATION ---
     // Use Groq's free tier — llama-3.3-70b is faster than GPT-4 and free.
     const completion = await groq.chat.completions.create({
-      model: 'llama-3.3-70b-versatile',
+     model: 'openai/gpt-oss-20b',
       messages: [
         { role: 'system', content: systemPrompt },
         // Send full conversation history so the LLM can handle follow-up questions
