@@ -62,7 +62,7 @@ ${PORTFOLIO_KNOWLEDGE || 'Knowledge file unavailable. Share contact email raviku
 ${retrieved ? `ADDITIONAL RETRIEVED PASSAGES (use to reinforce specifics when relevant):\n${retrieved}` : ''}`;
 
     const completion = await groq.chat.completions.create({
-      model: 'llama-3.3-70b-versatile',
+     model: 'openai/gpt-oss-20b',
       messages: [
         { role: 'system', content: systemPrompt },
         ...messages,
