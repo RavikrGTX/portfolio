@@ -49,17 +49,10 @@ export default function WorkSection() {
     },
     {
       id: 6,
-      businessName: 'RxCulture',
-      logo: assets.rxculturelogo,
-      website: 'https://therxculture.com',
-      domain: 'therxculture.com'
-    },
-    {
-      id: 7,
-      businessName: 'Farm Atharv',
-      logo: assets.rxculturelogo,
-      website: 'https://farmatharv.com',
-      domain: 'farmatharv.com'
+      businessName: 'NTARA',
+      logo: assets.bfclogo,
+      website: 'https://ntara.in',
+      domain: 'ntara.in'
     },
 
   ];

@@ -17,8 +17,7 @@ CLIENT WEBSITES (My Work section on this portfolio):
 - Brutal Fight Club — brutalfightclub.com
 - Konaseema Sustainable Solutions — konaseemasolutions.com
 - KodursParadise — kodursparadise.com
-- RxCulture — therxculture.com
-- Farm Atharv — farmatharv.com
+- NTARA — ntara.in
 
 PERSONAL / FEATURED PROJECTS:
 Stocks Gravity — A Next.js stock market analysis app with AI-powered insights. Tech: Next.js, Inngest, MongoDB. Live: https://stocks-next-app.vercel.app/
