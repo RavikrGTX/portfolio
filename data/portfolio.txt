@@ -12,8 +12,8 @@ Full-Stack Developer Intern at Linkfields Innovations — built full-stack web a
 Freelance Web Developer and Tech Consultant — delivers MERN Stack, Next.js, and WordPress websites for clients. Handles consultation, requirements, architecture, development, deployment, and maintenance. Also advises businesses on digital strategy and cloud adoption.
 
 CLIENT WEBSITES (My Work section on this portfolio):
+- Brilliant Speed Skating — brilliantspeedskating.com
 - Mouf Farm — mouffarm.com
-- Hi-Tech Constructions — hitechconstructions.com
 - Brutal Fight Club — brutalfightclub.com
 - Konaseema Sustainable Solutions — konaseemasolutions.com
 - KodursParadise — kodursparadise.com

@@ -5,34 +5,27 @@ import Image from 'next/image';
 export default function WorkSection() {
  
   const projects = [
-       {
+    {
       id: 1,
+      businessName: 'Brilliant Speed Skating',
+      logo: assets.bmaalogo,
+      website: 'https://brilliantspeedskating.com',
+      domain: 'brilliantspeedskating.com'
+    },
+    {
+      id: 2,
       businessName: 'Mouf Farm',
-      logo:assets.bfclogo, 
+      logo: assets.bfclogo,
       website: 'https://mouffarm.com/',
       domain: 'mouffarm.com'
-    },
-       {
-      id: 2,
-      businessName: 'Hi-Tech Constructions',
-      logo:assets.bfclogo, 
-      website: 'https://hitechconstructions.com/',
-      domain: 'hitechconstructions.com'
     },
     {
       id: 3,
       businessName: 'Brutal Fight Club',
-      logo:assets.bfclogo, 
+      logo: assets.bfclogo,
       website: 'https://brutalfightclub.com',
       domain: 'brutalfightclub.com'
     },
-    // {
-    //   id: 2,
-    //   businessName: 'Brilliant Martial Arts Academy',
-    //   logo: assets.bmaalogo,
-    //   website: 'https://brilliantmartialarts.com',
-    //   domain: 'brilliantmartialarts.com'
-    // },
     {
       id: 4,
       businessName: 'Konaseema Sustainable Solutions',
@@ -54,7 +47,6 @@ export default function WorkSection() {
       website: 'https://ntara.in',
       domain: 'ntara.in'
     },
-
   ];
 
   return (
