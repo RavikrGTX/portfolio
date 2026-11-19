@@ -9,16 +9,20 @@ export default function Skills() {
     "Express",
     "MongoDB",
     "PostgreSQL",
-   
- 
     "Java",
     "Python",
-    // "c",
     "Git",
     "Figma",
-    // "AWS",
     "HTML5",
-    "CSS3"
+    "CSS3",
+    "RAG",
+    "OpenAI API",
+    "LangChain",
+    "Pinecone",
+    "Hugging Face",
+    "AI Chatbots",
+    "Workflow Automation",
+    "n8n"
   ];
 
   return (
